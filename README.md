@@ -1,7 +1,7 @@
-# Google Fiber Dashboard Analytics
+# Waze User Retention Analytics
 
-**Google Fiber Dashboard for Improving Call Center Performance**  
-This project enables real-time insights for customer-focused, data-driven decisions aimed at improving call center performance.
+**Waze User Churn Prevention Dashboard**  
+This project enables data-driven insights for understanding and preventing user churn, focusing on optimizing user retention through behavioral pattern analysis.
 
 ### [Live Dashboard](link-to-tableau-dashboard)
 
