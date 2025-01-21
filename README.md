@@ -47,7 +47,7 @@ Our analysis revealed key patterns in user churn behavior:
 - [Stakeholder Requirements](link) (PDF)
 - [Project Requirements](link) (PDF)
 - [EDA Results](link) (PDF)
-- [Dashboard Mockup](link) (Image)
+- [Dashboard Mockup](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-dashboard-mockup.png) (Image)
 
 ### Data Analysis Process
 
