@@ -95,7 +95,7 @@ Our analysis revealed key patterns in user churn behavior:
 
 ---
 
-## Contact 📋
+## Contact ✉️
 
 For inquiries about this analysis:
 - [LinkedIn Profile](https://www.linkedin.com/in/melissaslawsky/)
@@ -112,7 +112,7 @@ This repository contains proprietary analysis.
 
 ---
 
-### Additional Technical Documentation
+### Additional Technical Documentation 📄
 
 1. **Python Analysis Notebooks**
   - [Initial Data Exploration](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.pdf) (PDF)
