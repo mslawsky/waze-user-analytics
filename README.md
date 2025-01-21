@@ -9,7 +9,7 @@ This project enables data-driven insights for understanding and preventing user 
 
 ---
 
-## Executive Summary & Key Findings
+## Executive Summary & Key Findings 📄
 ![Executive Summary](waze-executive-summary.png)
 
 ---
