@@ -109,7 +109,7 @@ For inquiries about this analysis:
 © Melissa Slawsky 2025. All Rights Reserved.  
 This repository contains proprietary analysis.
 
-**Published Project URL**: [Waze User Retention Dashboard](dashboard-link)
+**Published Project URL**: [Waze User Retention Dashboard]([dashboard-link](https://haproxy-traffic-splitter/views/WazeUserRetentionData/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 
 ---
 
