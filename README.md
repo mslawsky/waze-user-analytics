@@ -42,7 +42,7 @@ Our analysis revealed key patterns in user churn behavior:
 
 ## Project Documentation 📄
 
-### Business Intelligence Documents
+### Business Intelligence Documents 📑
 - [Strategy Document](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-strategy-doc.pdf) (PDF)
 - [Project & StakeholderRequirements](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-requirements.pdf) (PDF)
 - [EDA Results](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary.pdf) (PDF)
