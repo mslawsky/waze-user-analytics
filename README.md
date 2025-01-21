@@ -18,22 +18,22 @@ This project enables data-driven insights for understanding and preventing user 
 
 Our analysis revealed key patterns in user churn behavior:
 
-1. **Usage Intensity (82% Retention vs. 18% Churn)**:
+1. **Usage Intensity (82% Retention vs. 18% Churn)**: ❤️‍🔥
    - **Churned Users**: Higher intensity (~3 more drives/month)
    - **Retained Users**: More consistent usage patterns
    - **Strategic Focus**: Balance between engagement and sustainability
 
-2. **Activity Concentration (Key Metrics)**:
+2. **Activity Concentration (Key Metrics)**: ↕️
    - **Drive Patterns**: Churned users average 698km per driving day
    - **Time Distribution**: Retained users show 2x more active days
    - **Resource Focus**: Target high-intensity users with specialized features
 
-3. **Platform Distribution**:
+3. **Platform Distribution**: ↔️
    - 64.48% iPhone users
    - 35.52% Android users
    - **Platform Impact**: No significant difference in churn rates
 
-### Business Impact
+### Business Impact 💥
 - **Goal**: Reduce user churn rate (currently 18%)
 - **Potential Impact**: Target high-risk user segments
 - **Resource Allocation Model**: Focus on user experience optimization
@@ -60,13 +60,13 @@ Our analysis revealed key patterns in user churn behavior:
 
 ## Dashboard Development 📊
 
-1. **Data Integration & Cleaning**
+1. **Data Integration & Cleaning** 💾
   - Standardized user activity metrics
   - Validated data completeness (700 records with missing labels addressed)
   - Normalized driving metrics
   - Cross-referenced device data
 
-2. **Metric Development**
+2. **Metric Development** 🖼️
   - User Activity Patterns
   - Drive Intensity Metrics
     * Kilometers per drive
@@ -75,7 +75,7 @@ Our analysis revealed key patterns in user churn behavior:
   - Platform Usage Statistics
   - Churn Probability Indicators
 
-3. **Visualization Strategy**
+3. **Visualization Strategy** 🖼️
   - User behavior pattern tracking
   - Cross-platform comparison
   - Temporal usage analysis
@@ -83,12 +83,12 @@ Our analysis revealed key patterns in user churn behavior:
 
 ### Implementation Recommendations 📋
 
-1. **Immediate Actions**
+1. **Immediate Actions** ✅
   - Develop targeted retention strategies for high-intensity users
   - Implement early warning system for churn risk patterns
   - Create specialized features for super-users (potential long-haul drivers)
 
-2. **Resource Optimization**
+2. **Resource Optimization** ➕
   - Platform-specific engagement programs
   - Usage pattern-based feature development 
   - Enhanced user experience for power users
