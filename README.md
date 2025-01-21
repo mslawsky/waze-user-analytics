@@ -1,4 +1,4 @@
-# Waze User Retention Analytics
+# Waze User Retention Analytics 🚗
 
 **Waze User Churn Prevention Dashboard**  
 This project enables data-driven insights for understanding and preventing user churn, focusing on optimizing user retention through behavioral pattern analysis.
@@ -66,7 +66,7 @@ Our analysis revealed key patterns in user churn behavior:
   - Normalized driving metrics
   - Cross-referenced device data
 
-2. **Metric Development** 🖼️
+2. **Metric Development** 📈
   - User Activity Patterns
   - Drive Intensity Metrics
     * Kilometers per drive
