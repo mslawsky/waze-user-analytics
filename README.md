@@ -116,9 +116,9 @@ This repository contains proprietary analysis.
 ### Additional Technical Documentation
 
 1. **Python Analysis Notebooks**
-  - [Initial Data Exploration](notebook-link)
-  - [User Behavior Analysis](notebook-link)
-  - [Churn Prediction Model](notebook-link)
+  - [Initial Data Exploration](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.pdf) (PDF)
+  - [User Behavior Analysis](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.py) (PY)
+  - [Churn Prediction Model](notebook-link) (Next Phase)
 
 2. **Data Dictionary**
   ```python
