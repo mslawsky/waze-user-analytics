@@ -52,7 +52,7 @@ Our analysis revealed key patterns in user churn behavior:
 ### Data Analysis Process
 
 📂 **Data Files**
-- [Waze User Activity Data](https://github.com/mslawsky/blob/main/waze_dataset.csv)
+- [Waze User Activity Data](https://github.com/mslawsky/waze-user-analytics/raw/main/waze_dataset.csv)
 - [Churn Analysis Results](link)
 - [Platform Usage Patterns](link)
 - [Combined Analysis Results](link)
