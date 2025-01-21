@@ -14,7 +14,7 @@ This project enables data-driven insights for understanding and preventing user 
 
 ---
 
-### Strategic Insights: User Behavior Patterns
+### Strategic Insights: User Behavior Patterns 🔎
 
 Our analysis revealed key patterns in user churn behavior:
 
@@ -40,7 +40,7 @@ Our analysis revealed key patterns in user churn behavior:
 
 ---
 
-## Project Documentation
+## Project Documentation 📄
 
 ### Business Intelligence Documents
 - [Strategy Document](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-strategy-doc.pdf) (PDF)
@@ -48,7 +48,7 @@ Our analysis revealed key patterns in user churn behavior:
 - [EDA Results](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary.pdf) (PDF)
 - [Dashboard Mockup](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-dashboard-mockup.png) (Image)
 
-### Data Analysis Process
+### Data Analysis Process 📶
 
 📂 **Data Files**
 - [Waze User Activity Data](https://github.com/mslawsky/waze-user-analytics/raw/main/waze_dataset.csv)
@@ -58,7 +58,7 @@ Our analysis revealed key patterns in user churn behavior:
 
 ---
 
-## Dashboard Development
+## Dashboard Development 📊
 
 1. **Data Integration & Cleaning**
   - Standardized user activity metrics
@@ -81,7 +81,7 @@ Our analysis revealed key patterns in user churn behavior:
   - Temporal usage analysis
   - Churn risk indicators
 
-### Implementation Recommendations
+### Implementation Recommendations 📋
 
 1. **Immediate Actions**
   - Develop targeted retention strategies for high-intensity users
@@ -95,7 +95,7 @@ Our analysis revealed key patterns in user churn behavior:
 
 ---
 
-## Contact
+## Contact 📋
 
 For inquiries about this analysis:
 - [LinkedIn Profile](https://www.linkedin.com/in/melissaslawsky/)
