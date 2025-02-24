@@ -40,12 +40,43 @@ Our analysis revealed key patterns in user churn behavior:
 
 ---
 
+## Statistical Analysis: Device Impact on User Engagement 📊
+
+### A/B Testing for Business Decision-Making 
+![Device Usage Analysis](waze-statistical-analysis.png)
+
+We conducted hypothesis testing to determine if device type affects user engagement:
+
+1. **Research Question**: 🔍
+   - Is there a statistically significant difference in ride frequency between iPhone and Android users?
+   - **Null Hypothesis**: No difference in mean rides between platforms
+   - **Alternative Hypothesis**: Significant difference exists in mean rides
+
+2. **Statistical Insights**: 📈
+   - Two-sample t-test performed (p-value = 0.1434)
+   - Failed to reject null hypothesis at α = 0.05
+   - **Key Finding**: Device type does not significantly impact ride frequency
+
+3. **Business Implications**: 💡
+   - Platform-agnostic user experience successfully maintained
+   - Resource allocation should focus on usage patterns rather than device-specific solutions
+   - Consistent cross-platform performance validates current development approach
+
+### Implementation Strategy 📋
+- Develop retention strategies focusing on usage frequency rather than device type
+- Maintain cross-platform consistency in future feature development
+- Weight device type appropriately in churn prediction models
+
+---
+
+
 ## Project Documentation 📄
 
 ### Business Intelligence Documents 📑
 - [Strategy Document](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-strategy-doc.pdf) (PDF)
-- [Project & StakeholderRequirements](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-requirements.pdf) (PDF)
+- [Project & Stakeholder Requirements](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-requirements.pdf) (PDF)
 - [EDA Results](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary.pdf) (PDF)
+- [Statistical Analysis Report](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-statistical-report.pdf) (PDF)
 - [Dashboard Mockup](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-dashboard-mockup.png) (Image)
 
 ### Data Analysis Process 📶
@@ -80,6 +111,12 @@ Our analysis revealed key patterns in user churn behavior:
   - Cross-platform comparison
   - Temporal usage analysis
   - Churn risk indicators
+
+4. **Statistical Analysis** 📉
+  - Hypothesis test formulation
+  - Descriptive statistics computation
+  - Two-sample t-testing methodology
+  - Statistical significance interpretation
 
 ### Implementation Recommendations 📋
 
@@ -117,6 +154,7 @@ This repository contains proprietary analysis.
 1. **Python Analysis Notebooks**
   - [Initial Data Exploration](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.pdf) (PDF)
   - [User Behavior Analysis](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.py) (PY)
+  - [Statistical Hypothesis Testing](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-hypothesis-test.py) (PY)
   - [Churn Prediction Model](notebook-link) (Next Phase)
 
 2. **Data Dictionary**
