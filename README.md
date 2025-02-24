@@ -118,6 +118,8 @@ We conducted hypothesis testing to determine if device type affects user engagem
   - Two-sample t-testing methodology
   - Statistical significance interpretation
 
+---
+
 ### Implementation Recommendations 📋
 
 1. **Immediate Actions** ✅
