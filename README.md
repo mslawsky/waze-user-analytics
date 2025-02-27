@@ -69,6 +69,39 @@ We conducted hypothesis testing to determine if device type affects user engagem
 
 ---
 
+## Phase 2: Advanced Regression Analysis 🔬
+
+### Project Overview
+Following our initial exploratory analysis, we conducted a comprehensive binomial logistic regression model to predict user churn with greater precision.
+
+### Model Performance 📊
+- **Dataset Size**: 14,299 users
+- **Model Accuracy**: 82.55%
+- **Precision**: 54.44%
+- **Recall**: 9.66%
+
+### Key Insights from Regression Analysis 🧠
+
+1. **Engagement Intensity**
+   - Each additional day a user opens the app reduces churn risk by ~10%
+   - **Strategic Recommendation**: Develop features encouraging daily app engagement (traffic updates, gas prices, road alerts)
+
+2. **User Segmentation**
+   - Professional Drivers: 7.6% churn rate
+   - Non-Professional Drivers: 19.9% churn rate
+   - **Strategic Recommendation**: Create segment-specific retention tactics
+
+3. **Proactive Retention Strategies**
+   - Develop an early warning system to identify at-risk users
+   - Focus on enhancing features that demonstrate value during shorter, routine drives
+
+### Next Steps 🚀
+- Improve model predictive capability
+- Conduct qualitative user research
+- Develop personalized re-engagement strategies
+- Explore advanced machine learning techniques to enhance churn prediction
+
+---
 
 ## Project Documentation 📄
 
@@ -92,45 +125,45 @@ We conducted hypothesis testing to determine if device type affects user engagem
 ## Dashboard Development 📊
 
 1. **Data Integration & Cleaning** 💾
-  - Standardized user activity metrics
-  - Validated data completeness (700 records with missing labels addressed)
-  - Normalized driving metrics
-  - Cross-referenced device data
+   - Standardized user activity metrics
+   - Validated data completeness (700 records with missing labels addressed)
+   - Normalized driving metrics
+   - Cross-referenced device data
 
 2. **Metric Development** 📈
-  - User Activity Patterns
-  - Drive Intensity Metrics
-    * Kilometers per drive
-    * Drives per active day
-    * Total activity days
-  - Platform Usage Statistics
-  - Churn Probability Indicators
+   - User Activity Patterns
+   - Drive Intensity Metrics
+     * Kilometers per drive
+     * Drives per active day
+     * Total activity days
+   - Platform Usage Statistics
+   - Churn Probability Indicators
 
 3. **Visualization Strategy** 🖼️
-  - User behavior pattern tracking
-  - Cross-platform comparison
-  - Temporal usage analysis
-  - Churn risk indicators
+   - User behavior pattern tracking
+   - Cross-platform comparison
+   - Temporal usage analysis
+   - Churn risk indicators
 
 4. **Statistical Analysis** 📉
-  - Hypothesis test formulation
-  - Descriptive statistics computation
-  - Two-sample t-testing methodology
-  - Statistical significance interpretation
+   - Hypothesis test formulation
+   - Descriptive statistics computation
+   - Two-sample t-testing methodology
+   - Statistical significance interpretation
 
 ---
 
 ### Implementation Recommendations 📋
 
 1. **Immediate Actions** ✅
-  - Develop targeted retention strategies for high-intensity users
-  - Implement early warning system for churn risk patterns
-  - Create specialized features for super-users (potential long-haul drivers)
+   - Develop targeted retention strategies for high-intensity users
+   - Implement early warning system for churn risk patterns
+   - Create specialized features for super-users (potential long-haul drivers)
 
 2. **Resource Optimization** ➕
-  - Platform-specific engagement programs
-  - Usage pattern-based feature development 
-  - Enhanced user experience for power users
+   - Platform-specific engagement programs
+   - Usage pattern-based feature development 
+   - Enhanced user experience for power users
 
 ---
 
@@ -147,24 +180,24 @@ For inquiries about this analysis:
 © Melissa Slawsky 2025. All Rights Reserved.  
 This repository contains proprietary analysis.
 
-**Published Project URL**: [Waze User Retention Dashboard]([dashboard-link](https://haproxy-traffic-splitter/views/WazeUserRetentionData/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+**Published Project URL**: [Waze User Retention Dashboard](https://haproxy-traffic-splitter/views/WazeUserRetentionData/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
 ### Additional Technical Documentation 📄
 
 1. **Python Analysis Notebooks**
-  - [Initial Data Exploration](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.pdf) (PDF)
-  - [User Behavior Analysis](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.py) (PY)
-  - [Statistical Hypothesis Testing](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-hypothesis-test.py) (PY)
-  - [Churn Prediction Model](notebook-link) (Next Phase)
+   - [Initial Data Exploration](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.pdf) (PDF)
+   - [User Behavior Analysis](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.py) (PY)
+   - [Statistical Hypothesis Testing](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-hypothesis-test.py) (PY)
+   - [Churn Prediction Model](notebook-link) (Completed)
 
 2. **Data Dictionary**
-  ```python
-  variables = {
-      'label': 'User retention status (churned/retained)',
-      'sessions': 'Number of app sessions',
-      'drives': 'Number of drives recorded',
-      'total_sessions': 'Aggregate session count',
-      # Add other variables
-  }
+   ```python
+   variables = {
+       'label': 'User retention status (churned/retained)',
+       'sessions': 'Number of app sessions',
+       'drives': 'Number of drives recorded',
+       'total_sessions': 'Aggregate session count',
+       # Existing and new variables added
+   }
