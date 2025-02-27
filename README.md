@@ -74,6 +74,8 @@ We conducted hypothesis testing to determine if device type affects user engagem
 ### Project Overview
 Following our initial exploratory analysis, we conducted a comprehensive binomial logistic regression model to predict user churn with greater precision.
 
+![Regression Model](correlation-heatmap.png)
+
 ### Model Performance 📊
 - **Dataset Size**: 14,299 users
 - **Model Accuracy**: 82.55%
@@ -111,6 +113,7 @@ Following our initial exploratory analysis, we conducted a comprehensive binomia
 - [EDA Results](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary.pdf) (PDF)
 - [Statistical Analysis Report](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-statistical-report.pdf) (PDF)
 - [Dashboard Mockup](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-dashboard-mockup.png) (Image)
+- [Regression Model Report](https://github.com/mslawsky/waze-user-analytics/raw/main/regression-model-report.pdf) (PDF)
 
 ### Data Analysis Process 📶
 
@@ -119,6 +122,7 @@ Following our initial exploratory analysis, we conducted a comprehensive binomia
 - [Churn Analysis Results](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary1.png)
 - [Platform Usage Patterns](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary2.png)
 - [Combined Analysis Results](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary2.png)
+- [Regression Analysis](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-regression-analysis.png)
 
 ---
 
