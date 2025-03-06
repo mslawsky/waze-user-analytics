@@ -97,11 +97,75 @@ Following our initial exploratory analysis, we conducted a comprehensive binomia
    - Develop an early warning system to identify at-risk users
    - Focus on enhancing features that demonstrate value during shorter, routine drives
 
+---
+
+## Phase 3: Advanced Machine Learning Models 🤖
+
+### Project Overview
+Building on our regression analysis, we developed and compared tree-based machine learning models to further improve churn prediction accuracy.
+
+### Model Comparison Results 📊
+| Model | Precision | Recall | F1 | Accuracy |
+|-------|-----------|--------|----|---------| 
+| Random Forest | 0.501428 | 0.105772 | 0.174212 | 0.822240 |
+| XGBoost | 0.407280 | 0.183973 | 0.253176 | 0.807553 |
+| Random Forest Validation | 0.446281 | 0.106509 | 0.171975 | 0.818182 |
+| XGBoost Validation | 0.413934 | 0.199211 | 0.268975 | 0.808042 |
+| XGBoost Test | 0.439689 | 0.222880 | 0.295812 | 0.811888 |
+
+### Key Improvements
+- **XGBoost Performance**: Successfully identified 22.3% of churning users (2.3x improvement over regression)
+- **Precision-Recall Balance**: 44% precision ensures efficient targeting of at-risk users
+- **Model Stability**: Consistent performance across validation and test sets
+
+### Most Important Predictors
+The XGBoost model identified these top factors influencing churn:
+1. **Driving speed/efficiency** (km_per_hour)
+2. **Navigation to favorite places** (total_navigations_fav1)
+3. **User tenure** (n_days_after_onboarding)
+4. **Recent engagement intensity** (percent_sessions_in_last_month)
+5. **Time spent driving** (duration_minutes_drives)
+
+![XGBoost Feature Importance](feature_importance.png)
+
+### Feature Engineering Impact
+Engineered features accounted for 6 of the top 10 predictors, highlighting the importance of domain knowledge in model development:
+- **km_per_hour**: Driving efficiency metrics
+- **percent_sessions_in_last_month**: Recent engagement intensity
+- **km_per_driving_day**: Distance driven on active days
+- **km_per_drive**: Average trip distance
+
+### Confusion Matrix Analysis
+![Confusion Matrix](confusion_matrix.png)
+
+| | Predicted Not Churned | Predicted Churned |
+|---|---|---|
+| **Actual Not Churned** | 2209 (True Negatives) | 144 (False Positives) |
+| **Actual Churned** | 394 (False Negatives) | 113 (True Positives) |
+
+Our model correctly identified 113 out of 507 churning users while maintaining a low false positive rate.
+
+### Implementation Recommendations
+1. Deploy the XGBoost model to score current users for churn risk
+2. Implement targeted retention campaigns focused on:
+   - Improving navigation efficiency and time-saving features
+   - Encouraging setup and use of favorite destinations
+   - Creating special engagement programs at critical tenure points
+3. Monitor model performance monthly and refine as needed
+
+### XGBoost Optimal Parameters
+```python
+{
+    'learning_rate': 0.2,
+    'max_depth': 5,
+    'min_child_weight': 5,
+    'n_estimators': 300
+}
+
 ### Next Steps 🚀
 - Improve model predictive capability
 - Conduct qualitative user research
 - Develop personalized re-engagement strategies
-- Explore advanced machine learning techniques to enhance churn prediction
 
 ---
 
@@ -114,6 +178,7 @@ Following our initial exploratory analysis, we conducted a comprehensive binomia
 - [Statistical Analysis Report](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-statistical-report.pdf) (PDF)
 - [Dashboard Mockup](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-dashboard-mockup.png) (Image)
 - [Regression Model Report](https://github.com/mslawsky/waze-user-analytics/raw/main/regression-model-report.pdf) (PDF)
+- [Machine Learning Model Report](https://github.com/mslawsky/waze-user-analytics/raw/main/ml-model-report.pdf) (PDF)
 
 ### Data Analysis Process 📶
 
@@ -123,6 +188,8 @@ Following our initial exploratory analysis, we conducted a comprehensive binomia
 - [Platform Usage Patterns](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary2.png)
 - [Combined Analysis Results](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-data-summary2.png)
 - [Regression Analysis](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-regression-analysis.png)
+- [Feature Importance Analysis](https://github.com/mslawsky/waze-user-analytics/raw/main/feature-importance.png)
+- [Confusion Matrix](https://github.com/mslawsky/waze-user-analytics/raw/main/confusion-matrix.png)
 
 ---
 
@@ -155,19 +222,36 @@ Following our initial exploratory analysis, we conducted a comprehensive binomia
    - Two-sample t-testing methodology
    - Statistical significance interpretation
 
+5. **Machine Learning Integration** 🧮
+   - XGBoost model integration for real-time churn probability
+   - Feature importance visualization
+   - Risk segmentation dashboard
+   - Prediction accuracy monitoring
+
 ---
 
 ### Implementation Recommendations 📋
 
 1. **Immediate Actions** ✅
-   - Develop targeted retention strategies for high-intensity users
-   - Implement early warning system for churn risk patterns
-   - Create specialized features for super-users (potential long-haul drivers)
+   - Deploy XGBoost model to identify high-risk users
+   - Develop targeted retention strategies focusing on driving efficiency
+   - Encourage favorite destination setup for new users
+   - Create re-engagement campaigns for users showing recent activity decline
 
 2. **Resource Optimization** ➕
-   - Platform-specific engagement programs
-   - Usage pattern-based feature development 
-   - Enhanced user experience for power users
+   - Implement features that improve navigation efficiency
+   - Develop specialized engagement programs based on user tenure
+   - Create features that enhance favorite place functionality
+   - Focus on creating value for both professional and casual drivers
+
+---
+
+## Next Steps 🚀
+- Enhance model with additional data sources
+- Develop automated retention campaign system
+- Create a user risk score API for integration with marketing tools
+- Implement A/B testing framework for retention strategies
+- Expand model to predict specific churn timeframes
 
 ---
 
@@ -194,14 +278,10 @@ This repository contains proprietary analysis.
    - [Initial Data Exploration](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.pdf) (PDF)
    - [User Behavior Analysis](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-project-lab.py) (PY)
    - [Statistical Hypothesis Testing](https://github.com/mslawsky/waze-user-analytics/raw/main/waze-hypothesis-test.py) (PY)
-   - [Churn Prediction Model](notebook-link) (Completed)
+   - [Churn Prediction Model - Regression](https://github.com/mslawsky/waze-user-analytics/raw/main/regression-model.ipynb) (IPYNB)
+   - [Churn Prediction Model - Tree-Based Models](https://github.com/mslawsky/waze-user-analytics/raw/main/tree-models.ipynb) (IPYNB)
 
-2. **Data Dictionary**
-   ```python
-   variables = {
-       'label': 'User retention status (churned/retained)',
-       'sessions': 'Number of app sessions',
-       'drives': 'Number of drives recorded',
-       'total_sessions': 'Aggregate session count',
-       # Existing and new variables added
-   }
+2. **Model Deployment Resources**
+   - [XGBoost Model Implementation Guide](https://github.com/mslawsky/waze-user-analytics/raw/main/model-deployment.pdf) (PDF)
+   - [Risk Score API Documentation](https://github.com/mslawsky/waze-user-analytics/raw/main/risk-score-api.md) (MD)
+   - [Retention Campaign Integration](https://github.com/mslawsky/waze-user-analytics/raw/main/campaign-integration.pdf) (PDF)
