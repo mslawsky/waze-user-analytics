@@ -162,6 +162,8 @@ Our model correctly identified 113 out of 507 churning users while maintaining a
     'n_estimators': 300
 }
 
+---
+
 ### Next Steps 🚀
 - Improve model predictive capability
 - Conduct qualitative user research
