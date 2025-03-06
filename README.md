@@ -3,7 +3,7 @@
 **Waze User Churn Prevention Dashboard**  
 This project enables data-driven insights for understanding and preventing user churn, focusing on optimizing user retention through behavioral pattern analysis.
 
-### [Live Dashboard](https://haproxy-traffic-splitter/views/WazeUserRetentionData/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+### [Live Dashboard](https://public.tableau.com/app/profile/melissa.slawsky1925/viz/WazeUserRetentionData/Dashboard)
 
 ![Dashboard Overview](waze-retention-dashboard.png)
 
@@ -269,7 +269,7 @@ For inquiries about this analysis:
 © Melissa Slawsky 2025. All Rights Reserved.  
 This repository contains proprietary analysis.
 
-**Published Project URL**: [Waze User Retention Dashboard](https://haproxy-traffic-splitter/views/WazeUserRetentionData/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**Published Project URL**: [Waze User Retention Dashboard](https://public.tableau.com/app/profile/melissa.slawsky1925/viz/WazeUserRetentionData/Dashboard)
 
 ---
 
