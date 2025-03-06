@@ -154,13 +154,12 @@ Our model correctly identified 113 out of 507 churning users while maintaining a
 3. Monitor model performance monthly and refine as needed
 
 ### XGBoost Optimal Parameters
-```python
-{
-    'learning_rate': 0.2,
-    'max_depth': 5,
-    'min_child_weight': 5,
-    'n_estimators': 300
-}
+
+Our model performed best with these parameters:
+- Learning rate: 0.2
+- Max depth: 5
+- Min child weight: 5
+- Number of estimators: 300
 
 ---
 
