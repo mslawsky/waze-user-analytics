@@ -126,7 +126,7 @@ The XGBoost model identified these top factors influencing churn:
 4. **Recent engagement intensity** (percent_sessions_in_last_month)
 5. **Time spent driving** (duration_minutes_drives)
 
-![XGBoost Feature Importance](feature_importance.png)
+![XGBoost Feature Importance](xgboost-feature-importance.png)
 
 ### Feature Engineering Impact
 Engineered features accounted for 6 of the top 10 predictors, highlighting the importance of domain knowledge in model development:
@@ -136,7 +136,7 @@ Engineered features accounted for 6 of the top 10 predictors, highlighting the i
 - **km_per_drive**: Average trip distance
 
 ### Confusion Matrix Analysis
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](confusion-matrix.png)
 
 | | Predicted Not Churned | Predicted Churned |
 |---|---|---|
