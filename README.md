@@ -49,7 +49,7 @@ We conducted hypothesis testing to determine if device type affects user engagem
 
 1. **Research Question**: 🔍
    - Is there a statistically significant difference in ride frequency between iPhone and Android users?
-   - **Null Hypothesis**: No difference in mean rides between platforms
+   - **Null Hypothesis**: No meaningful difference in mean rides between platforms
    - **Alternative Hypothesis**: Significant difference exists in mean rides
 
 2. **Statistical Insights**: 📈
